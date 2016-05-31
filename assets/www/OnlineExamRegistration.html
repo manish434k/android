@@ -1,0 +1,112 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+      <title></title>
+
+      <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+
+      <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+      <link href="css/ionic.app.css" rel="stylesheet">
+      -->
+
+      <!-- ionic/angularjs js -->
+      <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+      <!-- cordova script (this will be a 404 during development) -->
+      <script src="cordova.js"></script>
+
+      <!-- your app's js -->
+      <script src="js/app.js"></script>
+    </head>
+    <body ng-app="starter">
+      <ion-pane>
+        <ion-header-bar>
+          <div class="bar bar-header">
+
+              <button class="button button-icon icon ion-navicon" onclick="openNav()"></button></a>
+              <h1 class="title"></h1>
+              <a class="button button-outline icon-right ion-share button-royal">Share</a>
+          </div> 
+
+        </ion-header-bar>
+
+        <ion-view>
+          <ion-content overflow-scroll="true" class="iframe-wrapper">
+            <iframe data-tap-disabled="true" name= "eventsPage" src="http://examination.mlsuportal.in/">
+            </iframe>
+          </ion-content>
+        </ion-view>
+      </ion-pane>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <div>
+      <div>   
+      <a style="text-decoration:none" href='index.html'>                 
+        Home                 
+      </a>
+    </div><div>   
+                <a style="text-decoration:none" href='UniversityWebsite.html'>                 
+                    University Website                  
+                </a>
+          </div>
+          <div>   
+                <a style="text-decoration:none" href='SelfServiceFacility.html'> 
+                 
+                    Self Service Facilities
+                  
+                </a>
+          </div>
+          <div>
+                <a style="text-decoration:none" href='Admission.html'>
+                  
+                    Admission
+                  
+                </a>
+          </div>
+          <div>
+                <a style="text-decoration:none" href='OnlineExamRegistration.html'>
+                  
+                    Online Exam Registration
+                  
+                </a>
+          </div>
+          <div>
+                <a style="text-decoration:none" href='ExaminationNotifications.html'> 
+                  
+                    Examination Notifications    </a>
+          </div>
+          <div>
+                <a style="text-decoration:none" href='Results.html'>
+                    Results   </a>
+          </div>
+          <div>
+                <a style="text-decoration:none" href='Syllabus.html'> 
+                    Syllabus    </a>
+          </div>
+          <div>
+                <a  style="text-decoration:none" href='Attendance.html'>Attendance </a>
+          </div>
+          <div>
+                <a style="text-decoration:none" href='GrievanceRegistration.html'>
+                    Grievance Registration   </a>
+          </div>
+          <div>
+                <a style="text-decoration:none" href='HelpDesk.html'>
+                    Help Desk     </a>
+          </div>
+        </div>
+  </div>
+      <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.display = "block";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.display = "none";
+  }
+  </script>     
+    </body>
+  </html>

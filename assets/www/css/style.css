@@ -1,0 +1,49 @@
+/* Empty. Add your own CSS if you like */
+.iframe-wrapper iframe {
+   width: 100%;
+   height: 100%;
+
+ }
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #5882FA;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size:15px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color:#818181;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
